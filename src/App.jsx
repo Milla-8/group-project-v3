@@ -4,6 +4,7 @@ import './styles/main.scss'
 import { Routes, Route, Link } from 'react-router-dom';
 import About from './pages/about/About';
 import Navbar from './pages/navbar/Navbar';
+import Footer from './pages/footer/Footer';
 
 
 function App() {
@@ -13,12 +14,11 @@ function App() {
     <div className="app-container">
       <Navbar />
       <div className="content">
-
-      <Routes>
-       
+      <Routes>   
         <Route path="/about" element={<About />} />
       </Routes>
       </div>
+      <Footer />
     </div>
   )
 }
