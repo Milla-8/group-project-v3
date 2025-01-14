@@ -1,0 +1,35 @@
+@use "../../styles/main.scss" as *;
+
+.app-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
+
+.footer {
+    background-color: $BeanNavy-color;;
+    text-align: center;
+    padding: 20px;
+    margin-top: auto;
+
+    .footer-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .footer-left,
+        .footer-middle,
+        .footer-right {
+            flex: 1;
+            text-align: center;
+
+            p {
+                color: $BeanSoftWhite-color;
+            }
+        }
+    }
+}
