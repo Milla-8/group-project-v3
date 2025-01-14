@@ -1,0 +1,89 @@
+/* Navbar styles */
+
+@use "../../styles/main.scss" as *;
+.navbar {
+    width: 100%; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: $BeanNavy-color;
+    padding: 1rem 2rem;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  
+    .navbar-logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: $BeanMintGreen-color;
+  
+      a {
+        text-decoration: none;
+        color: white;
+        transition: color 0.3s;
+  
+        &:hover {
+          color: #3498db;
+        }
+      }
+    }
+  
+    .navbar-links {
+      display: flex;
+      gap: 1.5rem;
+  
+      a {
+        text-decoration: none;
+        color: $BeanSoftWhite-color;
+        font-size: 1rem;
+        transition: color 0.3s;
+  
+        &:hover {
+          color: $BeanPink-color;
+        }
+      }
+    }
+  
+    .navbar-toggle {
+      display: none; 
+      font-size: 1.5rem;
+      background: none;
+      border: none;
+      color: $BeanSoftWhite-color;
+      cursor: pointer;
+  
+      &:hover {
+        color: $BeanPink-color;
+      }
+    }
+  
+    @media (max-width: 768px) {
+      .navbar-links {
+        display: none; /* Hide links on mobile */
+      }
+  
+      .navbar-toggle {
+        display: block; /* Show hamburger icon */
+      }
+  
+      .navbar-links.show {
+        display: flex;
+        flex-direction: column; /* Stack links vertically */
+        gap: 1rem;
+        //width: 100%;
+        //background-color: $BeanOrange-color;
+        padding: 1rem 0;
+
+        a {
+            //color: #2A3D45; /* Dark Text for contrast on light background */
+            &:hover {
+              color: $BeanPink-color; 
+            }
+        }
+      }
+    }
+  }
+  
+  
+  
