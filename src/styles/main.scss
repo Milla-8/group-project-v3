@@ -1,17 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&family=Chewy&display=swap');
 
+// Fonts
+$font-baloo: 'Baloo 2', cursive;  // For body and general text
+$font-chewy: 'Chewy', cursive;      // For playful headers or links
 
-  
-  
-  $primary-color: #3498db;
-  $BeanPink-color: #FF6B6B;
-  $BeanNavy-color: #2A3D45;
-  $BeanMintGreen-color: #66D19E;
-  $BeanSoftWhite-color: #F5F5F5;
-  $BeanOrange-color: #FFE5B4;
+// Colors
+$primary-color: #3498db;
+$BeanPink-color: #FF6B6B;
+$BeanNavy-color: #2A3D45;
+$BeanMintGreen-color: #66D19E;
+$BeanSoftWhite-color: #F5F5F5;
+$BeanOrange-color: #FFE5B4;
 
-  body {
-    background-color: $primary-color;
+body {
+  font-family: $font-baloo;
+  background-color: $primary-color;
+}
+
+h1, h2, h3 {
+  font-family: $font-chewy;
+}
+
+.navbar-links a {
+  font-family: $font-chewy;
+  font-size: 1.5rem;
+  color: $BeanSoftWhite-color;
+  transition: all 0.3s ease-in-out;
+
+  &:hover {
+    color: $BeanPink-color;
   }
+}
+
 //   .app-container {
 //     display: flex;
 //     flex-direction: column;
