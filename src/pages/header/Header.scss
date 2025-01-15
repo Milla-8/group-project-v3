@@ -1,10 +1,12 @@
+@use "../../styles/main.scss" as *;
+
 h1{
-    color: whitesmoke;
+    color: $BeanMintGreen-color;
     font-size: 50px;
     text-shadow: 2px 2px #666363;
 }
 p{
-    color: whitesmoke;
+    color: $BeanMintGreen-color;
     font-size: 20px; 
 }
 .header{

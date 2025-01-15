@@ -5,12 +5,12 @@ $font-baloo: 'Baloo 2', cursive;  // For body and general text
 $font-chewy: 'Chewy', cursive;      // For playful headers or links
 
 // Colors
-$primary-color: #3498db;
-$BeanPink-color: #FF6B6B;
-$BeanNavy-color: #2A3D45;
-$BeanMintGreen-color: #66D19E;
-$BeanSoftWhite-color: #F5F5F5;
-$BeanOrange-color: #FFE5B4;
+$primary-color: #FFE5B4;
+$BeanPink-color: #FF6B6B; // hover text ?
+$BeanNavy-color: #2A3D45; // Footer  nav ?
+$BeanMintGreen-color: #66D19E; // Text
+$BeanSoftWhite-color: #F5F5F5; // Displaybox background
+$BeanOrange-color: #FFE5B4; // Backgrund
 
 body {
   font-family: $font-baloo;
