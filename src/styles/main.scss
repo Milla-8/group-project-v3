@@ -5,13 +5,14 @@ $font-baloo: 'Baloo 2', cursive;  // For body and general text
 $font-chewy: 'Chewy', cursive;      // For playful headers or links
 
 // Colors
-$primary-color: #fae6c0; // d5ead6
+$primary-color: #fae6c0;
 $BeanPink-color: #FF6B6B; // hover text ?
 $BeanNavy-color: #2A3D45; // Footer  nav ?
 $BeanMintGreen-color: #66D19E; // Text
 $BeanSoftWhite-color: #F5F5F5; // Displaybox background
 $BeanOrange-color: #f4e7ce; // Backgrund
 //$BeanOrange-color: #FFE5B4; 
+// $primary-color: #fae6c0; // d5ead6 camilla
 
 body {
   font-family: $font-baloo;
