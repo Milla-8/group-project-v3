@@ -7,6 +7,7 @@ import Navbar from './pages/navbar/Navbar';
 import Footer from './pages/footer/Footer';
 import Header from './pages/header/Header.jsx'
 import Beans from './pages/beans/Beans'
+import Facts from './pages/facts/Facts'
 //https://jellybellywikiapi.onrender.com/api/Beans/?pageIndex=1&pageSize=20
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       
       <Routes>   
         <Route path="/about" element={<About />} />
+        <Route path="/facts" element={<Facts />} />
         <Route path="/beans" element={<Beans />} />
       </Routes>
       
