@@ -46,5 +46,11 @@ h1, h2, h3 {
   height: 100%; /* Strech the entire height of body */
   box-sizing: border-box; /* Include padding in the height and width */
 }
-
+.app-container{
+  background-color: $primary-color;
+  display: flex;
+  height: auto;
+//     flex-direction: column;
+//     min-height: 100vh;
+}
 
