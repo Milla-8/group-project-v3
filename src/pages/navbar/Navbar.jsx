@@ -18,6 +18,7 @@ const Navbar = () => {
         <Link to="/recipes">Recipes</Link>
         <Link to="/beans">Beans</Link>
         <Link to="/combinations">Combinations</Link>
+        <Link to="/history">History</Link>
       </nav>
     </header>
   );
