@@ -8,6 +8,7 @@ import Footer from './pages/footer/Footer';
 import Header from './pages/header/Header.jsx'
 import Beans from './pages/beans/Beans'
 import Facts from './pages/facts/Facts'
+import Combinations from './pages/combinations/Combinations'
 //https://jellybellywikiapi.onrender.com/api/Beans/?pageIndex=1&pageSize=20
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/facts" element={<Facts />} />
         <Route path="/beans" element={<Beans />} />
+        <Route path="/combinations" element={<Combinations />} />
       </Routes>
       
       <Footer />
