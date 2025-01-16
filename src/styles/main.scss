@@ -14,9 +14,11 @@ $BeanOrange-color: #f4e7ce; // Backgrund
 //$BeanOrange-color: #FFE5B4; 
 // $primary-color: #d5ead6 camilla
 
-body {
+body, html {
   font-family: $font-baloo;
   background-color: $primary-color;
+  overflow-x: hidden;
+  
 }
 
 h1, h2, h3 {
