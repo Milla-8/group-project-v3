@@ -5,7 +5,7 @@ import logo from '../../assets/BeanLogo2.png';
 
 const Navbar = () => {
   return (
-    <header className="navbar">
+    <div class="navbar">
       <div className="navbar-logo">
         <Link to="/">
           <img src={logo} alt="MyApp Logo" className="navbar-logo-img" />
@@ -20,7 +20,7 @@ const Navbar = () => {
         <Link to="/combinations">Combinations</Link>
         <Link to="/history">History</Link>
       </nav>
-    </header>
+      </div>
   );
 };
 
