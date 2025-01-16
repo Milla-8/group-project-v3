@@ -27,6 +27,10 @@ function App() {
         <Route path="/facts" element={<Facts />} />
         <Route path="/beans" element={<Beans />} />
         <Route path="/combinations" element={<Combinations />} />
+        <Route path="/recipes" element={<Recipes />} />
+        <Route path="/recipes/:id" element={<RecipesDetails />} />
+        <Route path="/history" element={<History />} />
+        
       </Routes>
       
       <Footer />
