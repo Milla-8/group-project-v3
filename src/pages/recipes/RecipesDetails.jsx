@@ -15,6 +15,9 @@ const RecipesDetails = () => {
 
     return (
         <div className="recipe-page">
+            <div className="recipe-details-image">
+                <img src={recipe.imageUrl} alt={recipe.name} />
+            </div>
 
             <h3>Ingredients:</h3>
             <ul>

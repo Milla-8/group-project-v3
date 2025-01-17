@@ -30,7 +30,7 @@ const RecipesPage = () => {
     }, []);
 
     if (loading) {
-        return <div className="recipe-page"><p>Loading recipes...</p></div>;
+        return <div className="recipe-page"><p>Loading recipes... 🧁</p></div>;
     }
     if (error) {
         return <p>{error}</p>;
