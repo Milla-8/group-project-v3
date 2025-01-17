@@ -18,7 +18,7 @@ const RecipesDetails = () => {
             <div className="recipe-details-image">
                 <img src={recipe.imageUrl} alt={recipe.name} />
             </div>
-
+            <h2>{recipe.name}</h2>
             <h3>Ingredients:</h3>
             <ul>
                 {recipe.ingredients.map((ingredient, index) => (
