@@ -13,6 +13,8 @@ import Recipes from './pages/recipes/Recipes.jsx'
 import RecipesDetails from './pages/recipes/RecipesDetails.jsx';
 import History from './pages/history/History';
 import RecipesInfo from './pages/recipesinfo/RecipesInfo.jsx';
+import FactsInfo from './pages/factsinfo/FactsInfo.jsx';
+import CombinationsInfo from './pages/combinationsinfo/CombinationsInfo.jsx';
 //https://jellybellywikiapi.onrender.com/api/Beans/?pageIndex=1&pageSize=20
 
 function App() {
@@ -22,9 +24,10 @@ function App() {
     <div className="app-container">
       <Header />
       <Navbar />
-      
-      <Routes> 
-        <Route path="/" element={<RecipesInfo/>} />  
+
+      <Routes>
+
+        <Route path="/" element={<><FactsInfo /><RecipesInfo /><CombinationsInfo /></> } />
         <Route path="/about" element={<About />} />
         <Route path="/facts" element={<Facts />} />
         <Route path="/beans" element={<Beans />} />
@@ -32,10 +35,9 @@ function App() {
         <Route path="/recipes" element={<Recipes />} />
         <Route path="/recipes/:id" element={<RecipesDetails />} />
         <Route path="/history" element={<History />} />
-        
+
       </Routes>
-      <Footer/>
-      
+      <Footer />
     </div >
   )
 }

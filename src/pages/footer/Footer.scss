@@ -30,4 +30,19 @@
             }
         }
     }
+
+    .navbar-logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 1rem;
+    
+        a {
+          .navbar-logo-img {
+            width: 80px; /* Bigger logo */
+            height: auto;
+            object-fit: contain; /* Prevent image distortion */
+          }
+        }
+      }
 }

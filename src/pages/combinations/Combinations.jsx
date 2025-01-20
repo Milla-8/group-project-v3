@@ -35,7 +35,7 @@ const CombsPage = () => {
   
     return (
       <div className="comb-page">
-        <h1 className="title">Some combinations</h1>
+        <h1 className="title">Some combinations to try</h1>
         <div className="comb-grid">
           {combs.map((comb) => (
             <div key={comb.combinationId} className="comb-card">
