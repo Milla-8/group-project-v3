@@ -9,9 +9,10 @@ import Header from './pages/header/Header.jsx'
 import Beans from './pages/beans/Beans'
 import Facts from './pages/facts/Facts'
 import Combinations from './pages/combinations/Combinations'
-import Recipes from './pages/recipes/Recipes.jsx' 
+import Recipes from './pages/recipes/Recipes.jsx'
 import RecipesDetails from './pages/recipes/RecipesDetails.jsx';
 import History from './pages/history/History';
+import MainFacts from './pages/mainfacts/MainFacts';
 //https://jellybellywikiapi.onrender.com/api/Beans/?pageIndex=1&pageSize=20
 
 function App() {
@@ -34,7 +35,7 @@ function App() {
       </Routes>
       <Footer/>
       
-    </div>
+    </div >
   )
 }
 

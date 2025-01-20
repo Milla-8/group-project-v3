@@ -1,0 +1,28 @@
+@use "../../styles/main.scss" as *;
+
+.App {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main-content {
+    flex: 1;
+    padding: 20px;
+
+    .content-container {
+        display: flex;
+        align-items: center;
+
+        .content-image {
+            margin-right: 5px;
+            width: 500px;
+            height: auto;
+            cursor: pointer;
+        }
+
+        .content-text {
+            flex: 1;
+        }
+    }
+}
