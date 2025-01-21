@@ -5,8 +5,11 @@
     text-align: center;
     background-color: $primary-color;
 
-    ul{
+    ul {
         list-style-type: none;
+      }
+    li {
+        color: $BeanSalmonDark-color;
       }
   
     .title {
@@ -46,7 +49,7 @@
       &:hover {
         transform: scale(1.05); // Slight zoom effect
         border: 5px solid $BeanSoftWhite-color; //Add a border on hover
-        background-color: rgba($color: #feffd8, $alpha: 1.0);
+        //background-color: rgba($color: #feffd8, $alpha: 1.0);
       }
 
       .recipe-card-content {
@@ -58,7 +61,7 @@
     
         h3 {
           font-size: 1.25rem;
-          color: $BeanMintGreen-color;
+          color: $BeanSalmonDark-color;
           margin-bottom: 0.5rem;
         }
     
@@ -94,7 +97,7 @@
     .recipe-description {
         font-family: $font-chewy;
         font-size: 1rem;
-        color: $BeanMintGreen-color;
+        color: $BeanSalmonDark-color;
         line-height: 1.5;
         text-align: center;
     }
