@@ -46,4 +46,33 @@
       }
       
   }
+
+  .comb-page {
+    @media (max-width: 768px) {
+
+      .title {
+        font-size: 2rem;
+      }
+  
+      .comb-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        gap: 1rem;
+      }
+  
+      .comb-description {
+        font-size: 0.8rem;
+        line-height: 1;
+      }
+  
+      .comb-card {
+        
+        h3 {
+          margin-top: 1rem;
+          font-size: 1rem;
+        }
+      }
+  
+    }
+  }
   

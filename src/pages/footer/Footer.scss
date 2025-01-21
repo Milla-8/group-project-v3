@@ -17,8 +17,8 @@
     padding: 20px;
     margin-top: auto;
     box-shadow: 5px 5px 10px black;
-  position: relative;
-  z-index: 2;
+    position: relative;
+    z-index: 2;
     /* Add shadow for a sleek look */
 
 
@@ -56,13 +56,9 @@
               
               a:hover {
                 //text-decoration: underline;
-                color: $BeanPink-color;
+                color: $BeanMintGreen-color;
               }
               
-              /*a:active {
-                background: #6900ff;
-                color: #cdfeaa;
-              } */
         }
     }
 

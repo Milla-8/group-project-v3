@@ -46,12 +46,25 @@
 
 .combinations-info-section {
     @media (max-width: 768px) {
-        flex-direction: column;
-        /* Change to vertikal layout */
+        //flex-direction: column;
+        /* Removed the vertical layout so the image doesnt change place */
         text-align: center;
 
         .image-container {
+
             max-width: 50%;
+
+            img {
+                object-fit: contain;
+            }
+        }
+
+        p {
+            font-size: 1rem;
+        }
+
+        h1{
+            font-size: 1.5rem;
         }
     }
 }
