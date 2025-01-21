@@ -16,7 +16,9 @@
     text-align: center;
     padding: 20px;
     margin-top: auto;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 5px 5px 10px black;
+  position: relative;
+  z-index: 2;
     /* Add shadow for a sleek look */
 
 
