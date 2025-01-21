@@ -2,7 +2,6 @@ import { useState } from 'react'
 import './styles/main.scss'
 
 import { Routes, Route, Link } from 'react-router-dom';
-import About from './pages/about/About';
 import Navbar from './pages/navbar/Navbar';
 import Footer from './pages/footer/Footer';
 import Header from './pages/header/Header.jsx'
@@ -15,8 +14,9 @@ import History from './pages/history/History';
 import RecipesInfo from './pages/recipesinfo/RecipesInfo.jsx';
 import FactsInfo from './pages/factsinfo/FactsInfo.jsx';
 import CombinationsInfo from './pages/combinationsinfo/CombinationsInfo.jsx';
-import BeansInfo from './pages/BeansInfo/BeansInfo';
-import HistoryInfo from './pages/HistoryInfo/HistoryInfo.jsx';
+import BeansInfo from './pages/beansInfo/BeansInfo.jsx';
+import HistoryInfo from './pages/historyinfo/HistoryInfo.jsx';
+
 
 //https://jellybellywikiapi.onrender.com/api/Beans/?pageIndex=1&pageSize=20
 
@@ -31,7 +31,6 @@ function App() {
       <Routes>
 
         <Route path="/" element={<><FactsInfo /><RecipesInfo /><CombinationsInfo /><BeansInfo /><HistoryInfo /></> } />
-        <Route path="/about" element={<About />} />
         <Route path="/facts" element={<Facts />} />
         <Route path="/beans" element={<Beans />} />
         <Route path="/combinations" element={<Combinations />} />
