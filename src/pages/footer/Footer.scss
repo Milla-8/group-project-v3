@@ -1,18 +1,24 @@
 @use "../../styles/main.scss" as *;
 
 .app-container {
-    width: 100%; /* Fill all width */
-    height: 100%; /* Fill all height */
+    width: 100%;
+    /* Fill all width */
+    height: 100%;
+    /* Fill all height */
     display: flex;
     flex-direction: column;
-    box-sizing: border-box; /* Handle padding */
-  }
+    box-sizing: border-box;
+    /* Handle padding */
+}
 
 .footer {
-    background-color: $BeanNavy-color;;
+    background-color: $BeanNavy-color;
     text-align: center;
     padding: 20px;
     margin-top: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    /* Add shadow for a sleek look */
+
 
     .footer-content {
         display: flex;
@@ -27,7 +33,34 @@
 
             p {
                 color: $BeanSoftWhite-color;
+                font-size: 20px;
             }
+
+            a {
+                outline-color: transparent;
+              }
+              
+              a:link {
+                color: $BeanSoftWhite-color;
+              }
+              
+              a:visited {
+                color: $BeanSoftWhite-color;
+              }
+              
+              a:focus {
+                text-decoration: underline;
+              }
+              
+              a:hover {
+                //text-decoration: underline;
+                color: $BeanPink-color;
+              }
+              
+              /*a:active {
+                background: #6900ff;
+                color: #cdfeaa;
+              } */
         }
     }
 
@@ -36,13 +69,15 @@
         justify-content: center;
         align-items: center;
         margin-bottom: 1rem;
-    
+
         a {
-          .navbar-logo-img {
-            width: 80px; /* Bigger logo */
-            height: auto;
-            object-fit: contain; /* Prevent image distortion */
-          }
+            .navbar-logo-img {
+                width: 80px;
+                /* Bigger logo */
+                height: auto;
+                object-fit: contain;
+                /* Prevent image distortion */
+            }
         }
-      }
+    }
 }

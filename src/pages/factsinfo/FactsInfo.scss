@@ -1,3 +1,5 @@
+@use "../../styles/main.scss" as *;
+
 .facts-info-section {
     display: flex;
     /* Flexbox to have the picture and text side by side */

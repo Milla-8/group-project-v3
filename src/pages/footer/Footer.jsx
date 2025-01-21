@@ -8,15 +8,19 @@ function Footer() {
         <footer className="footer">
             <div className="footer-content">
                 <div className="footer-left">
-                    <p>This site was made by: <br /> Camilla Evebark <br /> Robin Nilsson <br /> Alexander Moe Ditlevsen</p>
+                    <p>This site was made by: <br /> Robin Nilsson <br /> Camilla Evebark <br /> Alexander Moe Ditlevsen</p>
                 </div>
                 <div className="navbar-logo">
-                        <Link to="/">
-                          <img src={logo} alt="MyApp Logo" className="navbar-logo-img" />
-                        </Link>
-                      </div>
+                    <Link to="/">
+                        <img src={logo} alt="MyApp Logo" className="navbar-logo-img" />
+                    </Link>
+                </div>
                 <div className="footer-right">
-                    <p>Some links to our Githubs:</p>
+                    <p>Some GitHub links:<br />
+                    <a href="https://github.com/zorpid" target="_blank">Robins GitHub</a><br />
+                    <a href="https://github.com/Milla-8" target="_blank">Camillas GitHub</a><br />
+                    <a href="https://github.com/M10K4482" target="_blank">Alexanders GitHub</a><br />         
+                    </p>
                 </div>
             </div>
         </footer>
