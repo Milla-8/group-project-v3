@@ -69,7 +69,7 @@
 
     @media (max-width: 320px) {
         //flex-direction: column; //Removed the vertical layout so the image doesnt change place
-        text-align: left; // Align to left for more space
+        text-align: Right; // Align to right for more space
 
         .image-container {
             max-width: 50%;

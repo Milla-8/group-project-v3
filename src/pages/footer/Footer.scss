@@ -1,81 +1,80 @@
 @use "../../styles/main.scss" as *;
 
 .app-container {
-    width: 100%;
-    /* Fill all width */
-    height: 100%;
-    /* Fill all height */
-    display: flex;
-    flex-direction: column;
-    box-sizing: border-box;
-    /* Handle padding */
+  width: 100%;
+  /* Fill all width */
+  height: 100%;
+  /* Fill all height */
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  /* Handle padding */
 }
 
 .footer {
-    background-color: $BeanSalmon-color;
-    text-align: center;
-    padding: 20px;
-    margin-top: auto;
-    box-shadow: 5px 5px 10px black;
-    position: relative;
-    z-index: 2;
-    /* Add shadow for a sleek look */
+  background-color: $BeanSalmon-color;
+  text-align: center;
+  padding: 20px;
+  margin-top: auto;
+  box-shadow: 5px 5px 10px black;
+  position: relative;
+  z-index: 2;
+  /* Add shadow for a sleek look */
 
 
-    .footer-content {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
-        .footer-left,
-        .footer-middle,
-        .footer-right {
-            flex: 1;
-            text-align: center;
+    .footer-left,
+    .footer-middle,
+    .footer-right {
+      flex: 1;
+      text-align: center;
 
-            p {
-                color: $BeanSoftWhite-color;
-                font-size: 20px;
-            }
+      p {
+        color: $BeanSoftWhite-color;
+        font-size: 20px;
+      }
 
-            a {
-                outline-color: transparent;
-              }
-              
-              a:link {
-                color: $BeanSoftWhite-color;
-              }
-              
-              a:visited {
-                color: $BeanSoftWhite-color;
-              }
-              
-              a:focus {
-                text-decoration: underline;
-              }
-              
-              a:hover {
-                //text-decoration: underline;
-                color: $BeanMintGreen-color;
-              }
-              
-        }
+      a {
+        outline-color: transparent;
+      }
+
+      a:link {
+        color: $BeanSoftWhite-color;
+      }
+
+      a:visited {
+        color: $BeanSoftWhite-color;
+      }
+
+      a:focus {
+        text-decoration: underline;
+      }
+
+      a:hover {
+        color: $BeanPink-color;
+      }
+
     }
+  }
 
-    .navbar-logo {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-bottom: 1rem;
+  .navbar-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
 
-        a {
-            .navbar-logo-img {
-                width: 80px;
-                /* Bigger logo */
-                height: auto;
-                object-fit: contain;
-                /* Prevent image distortion */
-            }
-        }
+    a {
+      .navbar-logo-img {
+        width: 80px;
+        /* Bigger logo */
+        height: auto;
+        object-fit: contain;
+        /* Prevent image distortion */
+      }
     }
+  }
 }
