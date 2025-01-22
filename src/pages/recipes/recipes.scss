@@ -10,6 +10,7 @@
       }
     li {
         color: $BeanSalmonDark-color;
+        font-size: 20px;
       }
   
     .title {
@@ -79,18 +80,6 @@
         .recipes-totaltime {
             margin-top: auto; // Puts this element at the bottom 
         }
-
-        .recipe-link {
-            display: block;
-            margin-top: 1rem;
-            text-align: right;
-            color: #007bff;
-            text-decoration: none;
-
-            &:hover {
-                text-decoration: underline;
-            }
-        }
       }
 
     }
@@ -104,7 +93,11 @@
 
     img{
       width: 600px;
-    }   
+    }  
+    
+    h2, h3{
+      color: $BeanSalmonDark-color;
+    }
   }
 
 
