@@ -14,7 +14,7 @@ import History from './pages/history/History';
 import RecipesInfo from './pages/recipesinfo/RecipesInfo.jsx';
 import FactsInfo from './pages/factsinfo/FactsInfo.jsx';
 import CombinationsInfo from './pages/combinationsinfo/CombinationsInfo.jsx';
-import BeansInfo from './pages/beansInfo/BeansInfo.jsx';
+import BeansInfo from './pages/beansinfo/BeansInfo.jsx';
 import HistoryInfo from './pages/historyinfo/HistoryInfo.jsx';
 
 
@@ -30,7 +30,7 @@ function App() {
 
       <Routes>
 
-        <Route path="/" element={<><FactsInfo /><RecipesInfo /><CombinationsInfo /><BeansInfo /><HistoryInfo /></> } />
+        <Route path="/" element={<><FactsInfo /><RecipesInfo /><BeansInfo /><CombinationsInfo /><HistoryInfo /></> } />
         <Route path="/facts" element={<Facts />} />
         <Route path="/beans" element={<Beans />} />
         <Route path="/combinations" element={<Combinations />} />

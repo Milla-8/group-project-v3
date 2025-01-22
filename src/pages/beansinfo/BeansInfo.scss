@@ -6,7 +6,7 @@
   .image-container {
     flex: 1;
     max-width: 40%;
-    order: 1; /* Ensure image appears first */
+    order: 2; /* Ensure image appears second */
 
     a {
       display: inline-block;
@@ -31,7 +31,7 @@
   .text-container {
     flex: 1;
     padding: 1rem;
-    order: 2; /* Ensure text appears second */
+    order: 1; /* Ensure text appears first */
 
     p {
       line-height: 1.8;

@@ -35,7 +35,7 @@ const FactsPage = () => {
   
     return (
       <div className="fact-page">
-        <h1 className="title">Jelly Bean Facts</h1>
+        <h1 className="title">Jelly Belly Bean Facts</h1>
         <div className="fact-grid">
           {facts.map((fact) => (
             <div key={fact.factId} className="fact-card">

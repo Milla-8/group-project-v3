@@ -14,7 +14,7 @@ function HistoryInfo() {
       </div>
       <div className="image-container">
         <Link to="/History">
-          <img src="/src/assets/history2.png" alt="click to explore history" />
+          <img src="/src/assets/history3.png" alt="click to explore history" />
         </Link>
       </div>
     </div>

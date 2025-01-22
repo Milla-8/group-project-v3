@@ -15,7 +15,7 @@ function BeansInfo() {
       </div>
       <div className="image-container">
         <Link to="/Beans">
-          <img src="/src/assets/beans2.png" alt="click to explore beans" />
+          <img src="/src/assets/beans3.png" alt="click to explore beans" />
         </Link>
       </div>
     </div>
