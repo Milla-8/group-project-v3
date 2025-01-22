@@ -44,46 +44,41 @@
             line-height: 1.8;
         }
     }
-}
 
-.facts-info-section {
+    /*Mobile reactivity section*/
     @media (max-width: 768px) {
         //flex-direction: column; //Removed the vertical layout so the image doesnt change place
         text-align: center;
-
         .image-container {
             max-width: 50%;
             img {
                 object-fit: contain;
             }
         }
-
         p {
             font-size: 1rem; //New fontsize for mobiles
         }
-
-        h1{
+        h1 {
             font-size: 1.5rem; //New fontsize for mobiles
         }
     }
 
+    /*Smaller mobile reactivity section*/
     @media (max-width: 320px) {
         //flex-direction: column; //Removed the vertical layout so the image doesnt change place
-        text-align: left; // Align to left for more space
-
+        text-align: Left; // Align to left for more space
         .image-container {
             max-width: 50%;
             img {
                 object-fit: contain;
             }
         }
-
         p {
             font-size: 0.8rem; //New fontsize for even smaller mobiles
         }
-
-        h1{
+        h1 {
             font-size: 1.2rem; //New fontsize for even smaller mobiles
         }
     }
 }
+
