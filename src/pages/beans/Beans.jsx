@@ -57,14 +57,14 @@ const BeanPage = () => {
     return (
       <div className="bean-page">
         <h1 className="title">Jelly Beans Flavors</h1>
-        <div className="sort-buttons">
+        {/* <div className="sort-buttons">
           <button onClick={handleSortByColorGroup} className="sort-button">
             Sort by Color Group
           </button>
           <button onClick={handleSortByGroupName} className="sort-button">
             Sort by Group Name
           </button>
-        </div>
+        </div> */}
         <div className="bean-grid">
           {beans.map((bean) => (
             <div key={bean.beanId} className="bean-card" style={{ backgroundColor: bean.backgroundColor }}>
