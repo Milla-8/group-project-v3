@@ -2,102 +2,17 @@
 
 @use "../../styles/main.scss" as *;
 
-// .navbar {
-//   width: 100%; /* Full width */
-//   position: fixed;
-//   top: 0;
-//   left: 0;
-//   background-color: $BeanNavy-color;
-//   padding: 1rem 2rem;
-//   z-index: 1000;
-//   display: flex;
-//   align-items: center;
-//   justify-content: space-evenly; /* Separates logo and links */
-
-//   .navbar-logo {
-//     flex-shrink: 0; /* Prevents the logo from shrinking */
-//     a {
-//       display: flex;
-//       align-items: center;
-//       .navbar-logo-img {
-//         width: 40px; /* Logo size */
-//         height: auto;
-//         object-fit: contain;
-//       }
-//     }
-//   }
-
-//   .navbar-links-container {
-//     display: flex;
-//     justify-content: flex-end; /* Align links to the right */
-//     flex-grow: 1; /* Allows the links container to grow to fill the space */
-//   }
-
-//   .navbar-links {
-//     display: flex;
-//     gap: 1.5rem;
-
-//     a {
-//       text-decoration: none;
-//       color: $BeanSoftWhite-color;
-//       font-size: 1rem;
-//       transition: color 0.3s;
-
-//       &:hover {
-//         color: $BeanPink-color;
-//       }
-//     }
-//   }
-
-//   .navbar-toggle {
-//     display: none; /* Hide hamburger icon on large screens */
-//     font-size: 1.5rem;
-//     background: none;
-//     border: none;
-//     color: $BeanSoftWhite-color;
-//     cursor: pointer;
-
-//     &:hover {
-//       color: $BeanPink-color;
-//     }
-//   }
-
-//   @media (max-width: 768px) {
-//     flex-direction: column; /* Stack navbar items vertically */
-//     padding: 1rem;
-
-//     .navbar-links-container {
-//       display: none; /* Hide links initially */
-//     }
-
-//     .navbar-toggle {
-//       display: block; /* Show hamburger icon on mobile */
-//     }
-
-//     .navbar-links-container.show {
-//       display: flex; /* Show links when toggled */
-//       flex-direction: column; /* Stack links vertically */
-//       width: 100%;
-//       padding: 1rem 0;
-
-//       a {
-//         text-align: center; /* Center links on mobile */
-//       }
-//     }
-//   }
-// }
 .navbar {
-  width: 100%; /* Full width */
-  //position: fixed; /* Fixed at the top */
-  //box-sizing: border-box;
+  width: 100%;
   max-width: 100%;
   top: 0;
   left: 0;
-  background-color: $BeanSalmon-color; /* Dark navy background */
-  padding: 2rem 0; /* Add padding for spacing */
-  z-index: 1000; /* Ensure it stays above other elements */
-  text-align: center; /* Center everything inside */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for a sleek look */
+  background-color: $BeanSalmon-color;
+  padding: 2rem 0;
+  z-index: 1000;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
 
   .navbar-logo {
     display: flex;
@@ -107,30 +22,59 @@
 
     a {
       .navbar-logo-img {
-        width: 80px; /* Bigger logo */
+        width: 80px;
         height: auto;
-        object-fit: contain; /* Prevent image distortion */
+        object-fit: contain;
       }
     }
   }
 
   .navbar-links {
     display: flex;
-    justify-content: center; /* Center the links */
-    gap: 3rem; /* Space between links */
-    font-size: 1.5rem; /* Bigger font size */
+    justify-content: center;
+    gap: 3rem;
+    font-size: 1.5rem;
     font-weight: bold;
-    //text-transform: uppercase;
 
     a {
       text-decoration: none;
       color: $BeanSoftWhite-color;
       transition: color 0.3s;
-      text-transform: capitalize; 
+      text-transform: capitalize;
 
       &:hover {
-        color: $BeanPink-color; /* Change color on hover */
+        color: $BeanPink-color;
       }
+    }
+  }
+  
+
+   // Mobile responsiveness
+   @media (max-width: 768px) {
+    flex-direction: column; 
+    padding: 1rem 0;
+
+    .navbar-links {
+      flex-direction: column; 
+      display: flex;
+      gap: 1.5rem; 
+      margin-top: 1rem;
+      font-size: 1.2rem; 
+    }
+
+    .navbar-logo {
+      margin-bottom: 1.5rem; 
+    }
+
+  }
+
+  @media (max-width: 480px) {
+    .navbar-logo a .navbar-logo-img {
+      width: 60px;
+    }
+
+    .navbar-links {
+      font-size: 1rem; 
     }
   }
 }
