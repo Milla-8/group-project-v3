@@ -14,6 +14,13 @@
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
       gap: 2rem;
+      @media (max-width: 768px) {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* 2-3 cards per row on tablets */
+      }
+  
+      @media (max-width: 480px) {
+        grid-template-columns: repeat(2, 1fr); /* Exactly 2 cards per row on small mobile screens */
+      }
     }
   
     .bean-card {
@@ -79,5 +86,7 @@
         }
       }
       
+      
+    
   }
   
