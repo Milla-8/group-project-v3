@@ -16,11 +16,11 @@
   text-align: center;
   padding: 20px;
   margin-top: auto;
-  box-shadow: 5px 5px 10px black;
+
+  box-shadow: 5px 4px 10px black; // Some shadow
   position: relative;
   z-index: 2;
-  /* Add shadow for a sleek look */
-
+  
 
   .footer-content {
     display: flex;

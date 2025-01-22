@@ -51,15 +51,18 @@
     .title {
       font-size: 2rem;
     }
+
     .fact-grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
       gap: 1rem;
     }
+
     .fact-description {
       font-size: 0.8rem;
       line-height: 1;
     }
+
     .fact-card {
       h3 {
         margin-top: 1rem;
@@ -67,5 +70,9 @@
       }
     }
   }
-  
+
+  @media (max-width: 480px) {
+    grid-template-columns: repeat(2, 1fr); /* Exactly 2 cards per row on small mobile screens */
+  }
+
 }

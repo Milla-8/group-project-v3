@@ -60,9 +60,9 @@
   }
 
   /*Smaller mobile reactivity section*/
-  @media (max-width: 320px) {
+  @media (max-width: 480px) {
     //flex-direction: column; //Removed the vertical layout so the image doesnt change place
-    text-align: right; // Align to right for more space
+    text-align: center; // Align to right for more space
     .image-container {
       max-width: 50%;
       img {
