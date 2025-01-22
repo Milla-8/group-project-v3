@@ -8,9 +8,9 @@ function CombinationsInfo() {
           <div className="text-container">
             <h1>Combinations</h1>
             <p>
-              Jelly beans are packed with a variety of flavors, ranging from classic fruits to surprising and creative concoctions. 
-              The real magic of jelly beans lies in the way you can combine them to create entirely new taste experiences. By mixing flavors, 
-              you can replicate the essence of beloved treats, drinks, or even gourmet desserts. Click the image to the right to explore some exciting flavor combinations to try!       
+              Jelly Belly Beans are packed with a variety of flavors, ranging from classic fruits to surprising and creative concoctions. 
+              The real magic of Jelly Belly Beans lies in the way you can combine them to create entirely new taste experiences. By mixing flavors, 
+              you can replicate the essence of beloved treats, drinks, or even gourmet desserts. Click the image to the left to explore some exciting flavor combinations to try!       
             </p>
           </div>
           <div className="image-container">
