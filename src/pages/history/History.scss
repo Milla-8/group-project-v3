@@ -18,9 +18,6 @@
     @media (max-width: 768px) {
       grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* 2-3 cards per row on tablets */
     }
-
-    
-    
   }
 
   .history-card {
@@ -41,7 +38,7 @@
       //font-family: $font-primary;
       margin-top: 0.5rem;
       font-size: 1.5rem;
-      color: $BeanSalmonDark-color;
+      color: $BeanMintGreen-color;
     }
 
     .history-description {
