@@ -23,11 +23,11 @@
     transition: transform 0.2s ease-in-out;
     //background-color: transparent;
     background-color: #fff;
-    border: 5px solid transparent; //This is needed for border when hover
+    //border: 5px solid transparent; //This is needed for border when hover
 
     &:hover {
       transform: scale(1.05); // Slight zoom effect
-      border: 5px solid $BeanSoftWhite-color; //Add a border on hover
+      //border: 5px solid $BeanSoftWhite-color; //Add a border on hover
       //background-color: rgba($color: #feffd8, $alpha: 1.0);
     }
 
