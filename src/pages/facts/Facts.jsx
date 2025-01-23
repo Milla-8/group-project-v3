@@ -30,7 +30,7 @@ const FactsPage = () => {
       fetchFacts();
     }, []);
     
-    if (loading) return <p>Loading facts... </p>;
+    if (loading) return <p>Loading facts... 🧠</p>;
     if (error) return <p>{error}</p>;
   
     return (

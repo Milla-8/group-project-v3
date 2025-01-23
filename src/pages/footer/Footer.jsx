@@ -16,7 +16,7 @@ function Footer() {
                     </Link>
                 </div>
                 <div className="footer-right">
-                    <p>Some GitHub links:<br />
+                    <p>GitHub links:<br />
                     <a href="https://github.com/zorpid" target="_blank">Robin</a><br />
                     <a href="https://github.com/Milla-8" target="_blank">Camilla</a><br />
                     <a href="https://github.com/M10K4482" target="_blank">Alexander</a><br />         

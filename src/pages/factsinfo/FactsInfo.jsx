@@ -9,8 +9,8 @@ function FactsInfo() {
             <h1>Facts</h1>
             <p>Learn interesting facts about Jelly Belly Beans, some more controversial than others, and be the life of the
               party! Sharing your bean knowledge at the next family gathering will surely make 
-              you more likable and fun, or simply just read them to satisfy your own curiosity and keep all that knowledge to yourself. 
-              There are alot of them, a whole 99 in fact (but they're quite quick and to the point)! Click the image to the right to explore them all.      
+              you more fun, or simply just read them to satisfy your own curiosity and keep all that knowledge to yourself. 
+              There are alot of them, a whole 99 in fact (but they're quite short and quick)! Click the image to the right to explore them all.      
             </p>
           </div>
           <div className="image-container">

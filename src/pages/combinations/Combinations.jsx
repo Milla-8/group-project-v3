@@ -30,7 +30,7 @@ const CombsPage = () => {
       fetchCombs();
     }, []);
     
-    if (loading) return <p>Loading combinations... </p>;
+    if (loading) return <p>Loading combinations... 💥</p>;
     if (error) return <p>{error}</p>;
   
     return (
