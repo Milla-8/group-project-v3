@@ -10,13 +10,16 @@
       }
     li {
         color: $BeanSalmonDark-color;
-        font-size: 20px;
       }
   
     .title {
       font-family: $font-chewy;
       font-size: 3rem;
       margin-bottom: 2rem;
+    }
+
+    p{
+      font-size: 1rem;
     }
   
     .recipe-grid {
@@ -94,10 +97,11 @@
 
     img{
       width: 600px;
+      max-width: 100% /* make the picture responsive */
     }  
     
     h2, h3{
-      color: $BeanSalmonDark-color;
+      color: $BeanMintGreen-color;
     }
   }
 
